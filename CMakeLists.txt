@@ -12,6 +12,7 @@ INCLUDE_DIRECTORIES(zlmediakit/3rdpart/ZLToolKit/src)
 INCLUDE_DIRECTORIES(zlmediakit/src)
 INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR}/3rdpart)
 INCLUDE_DIRECTORIES(src)
+INCLUDE_DIRECTORIES(src/v4l2/inc)
 
 file(GLOB_RECURSE server_src src/*.cpp src/*.c)
 
